@@ -12,13 +12,17 @@ npm install, node.js, mySQL2, nodemon, Sequelize
 
 ## Usage
 View the landing page here. In the top left corner select login.
-![nutritional journal landing page](https://user-images.githubusercontent.com/111651316/229389790-31e01e8f-b65f-42f7-b481-9452963c9452.png)
+![nutritional journal landing page]![meals a day home](https://user-images.githubusercontent.com/111651316/236718095-8ff85485-9f82-4e8d-bfb3-42448404d557.png)
+
 
 From the Login page users will be able to either login to their accounts, if they do not have an account they can register using the register here link.
-![nutritional journal login page](https://user-images.githubusercontent.com/111651316/229390463-dccba458-9786-4c80-a4a7-1cffa32f505c.png)
 
-Users will able to register for an accout on the sign up page by entering their emal and a password of their choosing.
-![nutritional journal register](https://user-images.githubusercontent.com/111651316/229391515-70805d64-7461-4d21-9f4d-392fe0e2f710.png)
+![nutritional journal login page]![meals a day sign in](https://user-images.githubusercontent.com/111651316/236718187-99c51fc4-9416-4b7e-8277-d09b126a66b0.png)
+
+Users will able to log food for an accout on the  by entering their food, the date, meal, and calories.
+
+![nutritional journal register]![meals a day food log](https://user-images.githubusercontent.com/111651316/236718295-2b3eda21-3254-4c38-8de6-cfcf6a25680e.png)
+
 
 ## Collaborators
 -MalinkaMell
