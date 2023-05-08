@@ -39,6 +39,6 @@ NPM
 ## Links
 Github Link - https://github.com/JustGritJordan/meals-a-day
 
-Heroku - https://nutritional-journal.herokuapp.com/
+Heroku - https://meals-a-day-final.herokuapp.com/
 
-Screencastify - https://drive.google.com/file/d/1TAj8mHp85FcKmLaxMg2Pfn
+Screencastify - https://drive.google.com/file/d/18tyfEcK7OFZiCSVJON1PPj8eyLSSqMFy/view
