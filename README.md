@@ -37,7 +37,7 @@ License.mit
 NPM
 
 ## Links
-Github Link - https://github.com/JustGritJordan/nutrition-journal
+Github Link - https://github.com/JustGritJordan/meals-a-day
 
 Heroku - https://nutritional-journal.herokuapp.com/
 
