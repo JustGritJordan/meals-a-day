@@ -29,7 +29,7 @@ Users will able to log food for an accout on the  by entering their food, the da
 
 ## License
 
-MIT.Liscense
+License.mit
 ---
 
 
