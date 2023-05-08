@@ -1,0 +1,94 @@
+<main class="container-lg shadow rounded-4 text-purple-emphasis text-center mesh-gr-dash mx-5 my-5 overflow-hidden">
+    <div class="row ">
+        <div class="col-lg-7 p-5 mx-auto ">
+            <h1 class="text-purple-emphasis text-center">Welcome to your Meal-a-Day Profile!
+            </h1>
+            <p class="lead text-purple text-start mb-4">
+                <hr class=" border-purple border-4 opacity-100">
+            <div class="row text-center justify-content-evenly">
+                <div class="col-6 overflow-hidden my-3">
+                    <div
+                        class="d-flex flex-column justify-content-between bg-success-subtle border-success rounded-3 border border-2 d-block">
+                        <div class="py-2 d-flex justify-content-between align-items-center" id="{{id}}">
+                            {{> edit-icon data-id="{{id}}"}}
+                            {{> save-icon data-id="{{id}}"}}
+                        </div>
+                        <div class="p-3">
+                            <input type="text" class="form-control-plaintext ps-2 user-name"
+                                value="{{ user.name }}">
+                            <input type="text" class="form-control user-height" name="height" 
+                                value="{{ height }}">
+                            <input type="text" class="form-control user-height" name="weight" value="{{ weight }}">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 g-0 position-relative overflow-hidden m-0 py-3 mesh-gr-side">
+            <h1 class="text-purple-emphasis text-center bg-info">Meal-a-Day
+            </h1>
+
+            {{#if logged_in}}
+            <a class="btn btn-lg btn-danger border-4 px-4 mb-4 shadow-sm" id="logout-link" href="!#">Logout</a>
+            {{/if}}
+            <p class="lead text-light text-center mb-4">
+                Our mission is to help you build healthy habits that last a lifetime, starting with your nutrition.
+                Track your food intake, better understand your eating habits, and optimize your results in the gym.</p>
+            </p>
+            <div class="meal">
+
+                <h2 class="text-purple-subtle mb-4">Add new Meal</h2>
+
+                <form id="new-meal-form" class=" text-success-emphasis">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">
+                            {{> food-icon}}
+                        </span>
+                        <input type="text" name="food_name"
+                            class="form-control shadow-sm border-purple-subtle border-2 text-purple" id="food_name"
+                            placeholder="Food name">
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text border-2 border-purple-subtle" id="basic-addon1">
+                            {{> calories-icon}}
+
+                        </span>
+                        <input type="number" name="calories"
+                            class="form-control shadow-sm border-purple-subtle border-2 text-purple" id="food_name"
+                            placeholder="Calories">
+                    </div>
+                    <div class="input-group mb-3">
+                        <label class="input-group-text" for="inputGroupSelect01">
+                            {{> time-icon}}
+                        </label>
+                        <select
+                            class="form-select shadow-sm text-success-emphasis border-purple-subtle border-2 text-purple"
+                            aria-label="Select type of meal" name="food_type">
+                            <option selected>Select type of meal</option>
+                            <option value="breakfast">Breakfast</option>
+                            <option value="morning_snack">Morning snack</option>
+                            <option value="lunch">Lunch</option>
+                            <option value="afternoon_snack">Afternoon snack</option>
+                            <option value="dinner">Dinner</option>
+                            <option value="bedtime_snack">Bedtime snack</option>
+                            <option value="extra">Extra</option>
+                        </select>
+                    </div>
+                    <div class="d-grid mt-4">
+                        <button type="submit" class="btn btn-purple btn-lg">Create</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    </div>
+    <script src="/js/edit.js"></script>
+
+    <script src="/js/new.js"></script>
+    <script src="/js/logout.js"></script>

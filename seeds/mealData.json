@@ -1,0 +1,27 @@
+[
+  {
+    "food_name": "Two Pancakes",
+    "food_type": "breakfast",
+    "calories": 500,
+    "date": "2023-05-01"
+  },
+  {
+    "food_name": "Chicken Sandwich",
+    "food_type": "lunch",
+    "calories": 700,
+    "date": "2023-05-01"
+  },
+  {
+    "food_name": "Edamame beans",
+    "food_type": "extra",
+    "calories": 400,
+    "date": "2023-05-02"
+  }
+  ,
+  {
+    "food_name": "Banana ",
+    "food_type": "dinner",
+    "calories": 400,
+    "date": "2023-05-02"
+  }
+]

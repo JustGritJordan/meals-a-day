@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Irina",
+    "weight": 150,
+    "height": 5.5,
+    "email": "ik@gmail.com",
+    "password": "qwerty"
+  },
+  {
+    "name": "Mali",
+    "weight" : 120,
+    "height": null,
+    "email": "mm@gmail.com",
+    "password": "qwerty"
+  },
+  {
+    "name": "Mell Malinka",
+    "weight": null,
+    "height": null,
+    "email": "mali@gmail.com",
+    "password": "qwerty"
+  }
+]
